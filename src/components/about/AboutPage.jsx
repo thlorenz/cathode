@@ -6,7 +6,7 @@ class AboutPage extends Component {
     return (
       <div>
         <h1>About</h1>
-        <p>This application uses React, Redux, React Router and magical libraries.</p>
+        <p>This application uses React, Redux, React Router and no magic.</p>
         <p>It was built by hand in order to understand each piece.</p>
       </div>
     )

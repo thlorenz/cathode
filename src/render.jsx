@@ -17,7 +17,7 @@ function renderFullPage(html, preloadedState) {
     <!doctype html>
     <html>
       <head>
-        <title>Simple Electrode App (server side rendered)</title>
+        <title>Simple Cathode App (server side rendered)</title>
       </head>
       <body>
         <div id="app">${html}</div>

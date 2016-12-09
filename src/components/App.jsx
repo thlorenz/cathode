@@ -5,7 +5,7 @@ const Header = require('./common/Header.jsx')
 class App extends Component {
   render() {
     return (
-      <div className='build-container'>
+      <div>
         <Header />
         {this.props.children}
       </div>
