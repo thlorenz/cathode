@@ -1,3 +1,5 @@
+require('babel-register')({ extensions: [ '.jsx' ] })
+
 const path = require('path')
 const express = require('express')
 const app = express()
@@ -5,6 +7,7 @@ const app = express()
 const staticPath = path.join(__dirname, '..', 'static')
 
 app.use('/static', express.static(staticPath))
+app.get('*', require('./render.jsx'))
 
 app.get('/', function serverRoot(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'))

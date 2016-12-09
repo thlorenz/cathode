@@ -3,9 +3,9 @@ const { render } = require('react-dom')
 const configureStore = require('./store/configure-store')
 const { Provider } = require('react-redux')
 const { Router, browserHistory } = require('react-router')
-const routes = require('./routes')
+const routes = require('./routes.jsx')
 
-const store = configureStore()
+const store = configureStore(window.__PRELOADED_STATE__)
 
 render(
   <Provider store={store}>

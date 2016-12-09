@@ -1,9 +1,9 @@
 const React = require('react')
 const { Route, IndexRoute } = require('react-router')
-const App = require('./components/App')
-const HomePage = require('./components/home/HomePage')
-const AboutPage = require('./components/about/AboutPage')
-const FaucetsPage = require('./components/faucet/FaucetsPage')
+const App = require('./components/App.jsx')
+const HomePage = require('./components/home/HomePage.jsx')
+const AboutPage = require('./components/about/AboutPage.jsx')
+const FaucetsPage = require('./components/faucet/FaucetsPage.jsx')
 
 module.exports = (
   <Route path='/' component={App}>

@@ -4,7 +4,7 @@ BROWSERIFY=$(BIN)/browserify
 
 REQUIRE_VENDORS=-r react -r react-dom -r redux
 EXCLUDE_MODULES=-x react -x react-dom -x redux
-ENTRY=src/client.js
+ENTRY=src/client.jsx
 OUTPUT=static/bundle.js
 
 watch:

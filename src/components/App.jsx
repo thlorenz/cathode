@@ -1,6 +1,6 @@
 const React = require('react')
 const { Component, PropTypes } = React
-const Header = require('./common/Header')
+const Header = require('./common/Header.jsx')
 
 class App extends Component {
   render() {
