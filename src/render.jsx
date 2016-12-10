@@ -35,7 +35,7 @@ module.exports = function render(req, res) {
   function onmatch(
     err,
     redirectLocation,
-    { router, location, routes, params, components }) {
+    { router, location, routes, params, components } = {}) {
     if (err) return console.error(err)
 
     const html = renderToString(
